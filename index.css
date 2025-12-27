@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Great+Vibes&family=Knewave&family=Monsieur+La+Doulaise&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Rubik+Dirt&display=swap');
+
+
+
+.logo{
+    width:100px;
+    height: 100px;
+    position: top;
+   }
+   #Header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:black;
+    padding: 30px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0,0,0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+   margin-top:-5px;
+   }
+   #Header h2{
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+    font-family: 'Cinzel', serif;
+   }
+   #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   #navbar li{
+  list-style:  none;
+    padding: 0 20px;
+    
+   
+   }
+    #navbar li a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+color:white;
+transition: 0.3s ease;
+
+    }
+
+    #navbar li a:hover,
+     #navbar li a.active{
+        color:wheat;
+       }
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background-color:wheat;
+    bottom: -4px;
+    left: 20px;
+}
+
+#vibe{
+    background-image: url(images/home\ front\ page.webp);
+    padding: 0 80px;
+    margin-top: 10px;
+    display: flex;
+    align-items:flex-start ;
+    background-size: cover;
+    height: 80vh;
+    width: 90%;
+    background-position: top 25% right 0;
+    flex-direction: column;
+font-family: 'Roboto', sans-serif;
+    font-style: italic;
+ 
+
+}
+#vibe button{
+   background-image: url(images/shopnow.jpg);
+   background-color: transparent;
+    color: black;
+    border: 0;
+    padding: 14px 80px 15px 65px;
+    background-position: centre;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+#box img{
+    width: 150px;
+    height: 180px;
+    margin-top: 50px;  
+     box-shadow: 20px 20px 34px rgba(0, 0,0,0.3);
+  border-radius: 4px;
+}
+
+#box div{
+    display: flex;
+    justify-content: space-around;
+   font-weight: 600;
+  
+  }
+  #box-text{
+   margin-left: 0px;
+   margin-right: 40px;
+  }
+  #box img:hover{
+      transform: translateY(-12px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  cursor: pointer;
+  }
+  #ourproduct{
+    padding-top: 70px;
+    text-align: center;
+  }
+
+.playout img{
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    margin: 10px 20px;
+    
+  
+}
+#r1,#r2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.playout{
+     border: 1px solid rgb(187, 158, 158);
+     border-radius: 3px;
+     line-height: 01px;
+       
+
+}
+.text{
+  text-align: left;
+  margin-left: 10px;
+}
+#banner img{
+     width: 100%;
+    display: block;
+    margin-top: 50px;
+    height: 400px;
+}
+
+  #banner button {
+    position: absolute;
+    bottom: 20px;            
+    left: 50%;
+    transform: translateX(-50%);
+    
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+}  
+#banner{
+    position: relative;    
+}
+ #banner button:hover{
+    background-color: wheat;
+ }
+ #banner2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+ }
+ #banner2 img{
+    height: 400px;
+    width: 700px;
+    
+ }
+  #banner2 button {
+    position: absolute;
+    bottom: 20px;            
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+}  
+#banner2 div{
+position: relative;
+}
+ #banner2 button:hover{
+    background-color: wheat;
+ }
+ #banner2 h3{
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ #banner2 p{
+        position: absolute;
+    bottom: 170px;
+    left: 30px;
+   font-family: 'Bebas Neue', sans-serif;
+font-style: italic;
+ }
+ #banner3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+ 
+ }
+ #banner3 img{
+    height: 200px;
+    width: 300px;
+    display: block;
+   
+ }
+ #banner3 h3{
+    position: absolute;
+    bottom :70px;
+    font-size: 30px;
+    left: 10px;
+     top: 30px;
+   background-color: whitesmoke;
+   font-style: italic;
+    
+
+
+ }
+ #banner3 div{
+       position: relative;
+
+       
+ }
+ #email{
+   background-image: url(images/email.jpg);
+    height: 150px;
+    width:100%;
+    line-height: 0.9;
+    color:black;
+   padding-top: 20px;
+   margin-top: 30px;
+   display: flex;
+ }
+ .search{
+    color: black;
+    margin-left: 400px;
+    margin-top: 40px;
+    display: flex;
+    height: 40px;
+ }
+.search button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
