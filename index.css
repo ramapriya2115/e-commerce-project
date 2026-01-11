@@ -78,19 +78,7 @@ font-family: 'Roboto', sans-serif;
  
 
 }
-#vibe button{
-   background-image: url(images/shopnow.jpg);
-   background-color: transparent;
-    color: black;
-    border: 0;
-    padding: 14px 80px 15px 65px;
-    background-position: centre;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 15px;
 
-}
 #box img{
     width: 150px;
     height: 180px;
